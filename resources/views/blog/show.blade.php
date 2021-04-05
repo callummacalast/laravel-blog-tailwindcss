@@ -13,7 +13,7 @@
 
 <div class="w-4/5 m-auto pt-20">
     <span class="text-gray-500">
-        By <span class="font-bold italic text-gray-800">
+        By, <span class="font-bold italic text-gray-800">
             {{ $post->user->name }}
         </span>
         Created On {{ date('jS M Y', strtotime($post->updated_at)) }}
