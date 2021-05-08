@@ -12,9 +12,6 @@
                 <li class="pb-1">
                     <a href="/login">Login</a>
                 </li>
-                <li class="pb-1">
-                    <a href="/register">Register</a>
-                </li>
             </ul>
         </div>
 

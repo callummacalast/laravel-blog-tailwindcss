@@ -3,10 +3,10 @@
 @section('content')
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
-        <h1 class="text-6xl">
+        <h1 class="text-6xl mb-4">
             {{ $post->title }}
         </h1>
-        <img class="lg:w-60 md:w-20 sm:w-20" src="{{ asset('images/' . $post->image_path) }}" width="500" alt="">
+        <img class="lg:w-1/4 md:w-20 sm:w-20 rounded-xl shadow-2xl center" src="{{ asset('images/' . $post->image_path) }}" width="500" alt="">
     </div>
 </div>
 

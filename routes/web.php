@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PostsController;
+use Illuminate\Support\Facades\Auth;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +19,9 @@ use App\Http\Controllers\PostsController;
 Route::get('/', [PagesController::class, 'index']);
 Route::resource('/blog', PostsController::class);
 // All routes needed for authentication
-Auth::routes();
+// Auth::routes();
+
+Auth::routes(['register' => false]);
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('index');
 

@@ -75,6 +75,7 @@
     </h2>
 
     <p class="m-auto w-4/5 text-gray-500">
+    
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nemo dolores fugit accusantium incidunt? Aliquam officia et deserunt quas ipsa ratione culpa provident, dolores quis sequi. Impedit molestias delectus debitis?
     </p>
 </div>
